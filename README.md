@@ -24,3 +24,28 @@ English Quest — ағылшын тілін ойын форматында үйр
 - [Sequence: тапсырмаға жауап беру](docs/analysis/sequence-answer-quiz.png)
 
 Диаграммалардың өңделетін нұсқалары `docs/analysis/` папкасында `.drawio` форматында сақталған.
+
+## 13-апта. Деректер ағындары және деректер қорын жобалау
+
+### DFD диаграммалары
+
+- [DFD Context](docs/analysis/dfd-context.png)
+- [DFD Level 0](docs/analysis/dfd-level0.png)
+- [DFD Level 1](docs/analysis/dfd-level1.png)
+
+### Деректер қоры
+
+- [ERD диаграммасы](docs/database/erd.png)
+- [PostgreSQL коды](docs/database/schema.sql)
+- [SQL нәтижелері](docs/database/query-results.png)
+
+Деректер қоры PostgreSQL 17 жүйесінде жасалды.
+6 кесте құрылып, 25 тестілік жазба енгізілді.
+JOIN және GROUP BY сұраныстары сәтті орындалды.
+
+### Қорытынды
+
+English Quest мобильді қосымшасының деректер
+ағындары модельденіп, деректер қоры жобаланды.
+Кестелер арасындағы байланыстар анықталып,
+SQL сұраныстары тәжірибе жүзінде тексерілді.
